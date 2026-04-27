@@ -1,6 +1,6 @@
 {
   "name": "@peppa_q/wv",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "which-version — query what version of a dependency a package requires",
   "bin": {
     "wv": "./bin.js",
@@ -25,5 +25,11 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Q-Peppa/wv.git"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "semver": "^7.6.0"
   }
 }
