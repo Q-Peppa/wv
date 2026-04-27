@@ -1,0 +1,29 @@
+{
+  "name": "@peppa_q/wv",
+  "version": "1.3.0",
+  "description": "which-version — query what version of a dependency a package requires",
+  "bin": {
+    "wv": "./bin.js",
+    "which-version": "./bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "version",
+    "which-version",
+    "npm",
+    "dependency",
+    "semver",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/whv.git"
+  }
+}
